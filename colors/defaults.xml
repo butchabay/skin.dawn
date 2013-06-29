@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+    
+	
+	<color name="sidebar">CC2C2C2C</color>
+	<color name="topbar">AA2C2C2C</color>
+	<color name="overlayrss">AA2C2C2C</color>
+	<color name="timebar">EE2C2C2C</color> 
+	<color name="time">FF7FFFD4</color> 
+	
+	<color name="home_icons_focus">FF7FFFD4</color> 
+	<color name="home_icons_unfocus">FFB0C4DE</color>
+	
+	<color name="listfo">442C2C2C</color> 
+	
+	<color name="focused_submenu">FFB0C4DE</color> 
+	<color name="unfocused_submenu">FFB0C4DE</color> 
+	
+	<color name="arrow">FFC0C0C0</color> 
+	<color name="widgetsbar">FF2C2C2C</color> 
+	
+	<color name="rating">FFC0C0C0</color> 
+	<color name="shadow">FF505050</color>
+	
+	<color name="star_rating">AAFFD700</color> 
+	<color name="darkgreybackground">AA2C2C2C</color>
+	
+	<color name="silver">FFC0C0C0</color>
+	<color name="silver_dim1">FFB0C4DE</color>
+	
+	
+	
+	<color name="grey">FFb4b4b4</color>
+	<color name="grey2">FF999999</color>
+	<color name="grey3">FF505050</color>
+	<color name="selected">FFEB9E17</color>
+
+	<color name="Black">FF000000</color>
+	<color name="White">FFFFFFFF</color>
+	<color name="Red">FFFF0000</color>
+	<color name="Green">FF00FF00</color>
+	<color name="Diffuse">66FFFFFF</color>
+	<color name="orange">FF666769</color>
+	<color name="lightgrey">FFDDDDDD</color>
+	<color name="blue">FF2d5a83</color>
+	<color name="royalblue">FF4169E1</color>
+	<color name="steelblue">FF4682B4</color>
+	<color name="steelblue_dim1">EE4682B4</color>
+	<color name="darkgrey">FF2C2C2C</color>
+	<color name="orange">FFFEAF33</color>
+	
+	<color name="focused">FF4682B4</color> <!-- steelblue -->
+	<color name="focused2">994682B4</color> <!-- steelblue -->
+	<color name="gainsboro">FFDCDCDC</color>
+	<color name="dimgray">FF696969</color>
+	<color name="limehome">FFc7e700</color>
+	
+	<color name="focuseddiffuse">99c7e700</color>
+	<color name="blackdiffuse">DD000000</color>
+	<color name="whitediffuse">99FFFFFF</color>
+	<color name="bluediffuse">992d5a83</color>
+	<color name="royalbluediffuse">DD4169E1</color>
+	<color name="steelbluediffuse">DD4682B4</color>
+	<color name="aquamarine">DD66CDAA</color>
+	<color name="silverdiffuse">DDC0C0C0</color>
+	<color name="gainsborodiffuse">EEDCDCDC</color>
+	<color name="darkgreydiffuse">FF2C2C2C</color>
+	<color name="darkgreydiffuse2">CC2C2C2C</color>
+	<color name="orangediffuse">99FEAF33</color>
+	<color name="mediumspring">DDFF6347</color>
+	<color name="crimson">DDDC143C</color>
+	<color name="silverdiffuse2">99C0C0C0</color>
+	<color name="dimgraydiffuse">99696969</color>
+	
+	
+	
+	<color name="bluebackground">992d5a83</color>
+	<color name="royalbluebackground">994169E1</color>
+	<color name="steelbluebackground">994682B4</color>
+	<color name="aquamarinebackground">9900FFFF</color>
+	<color name="silverbackground">99686868</color>
+	<color name="gainsborobackground">99DCDCDC</color>
+	<color name="greybackground">99b4b4b4</color>
+	<color name="grey2background">99FFFFFF</color>
+	<color name="grey3background">99FFFFFF</color>
+	<color name="orangebackground">99FEAF33</color>
+	
+	<color name="bluegreybackground">99C6C6C8</color>
+	
+	<color name="orangebackground">99666769</color>
+	<color name="lightgreybackground">99DDDDDD</color>
+	
+	<color name="crimsonbackground">99DC143C</color>
+	<color name="limebackground">9900FF00</color>
+	<color name="mediumspringbackground">99FF6347</color>
+	
+    
+	<color name="nocolor"></color>
+	<color name="diffuse1">99FFFFFF</color>
+	<color name="overlay">eeDDDDDD</color>
+	
+	
+	<color name="Focused">FF111111</color>
+	<color name="Disabled">ff9a9a9a</color>
+	<color name="Selected">ff16871e</color>
+	
+	<color name="column1">ffffffff</color>
+	<color name="column2">ff2d5a83</color>
+	<color name="column3">dd0c2134</color>
+	
+</colors>

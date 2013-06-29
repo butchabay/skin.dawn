@@ -1,0 +1,4 @@
+0.0.1
+
+- first test release of home menu widgets for movies and tvshows
+- confluence converted to 1080

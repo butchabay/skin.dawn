@@ -1,0 +1,88 @@
+					<?xml version="1.0" encoding="UTF-8"?>
+
+					<includes>
+
+					<include name="Overlay">
+					<control type="image">
+					<description>Overlay</description>
+					<include>Dimensions_Fullscreen_Home</include>
+					<texture background="true">dawn/overlay.png</texture>
+					<colordiffuse>darkgreybackground</colordiffuse>
+					</control>
+					</include>
+
+					<!-- Home Backgrounds -->
+                    
+					<include name="Backgrounds_Home">
+					<control type="image">
+					<visible>![Control.HasFocus(8000) | Control.HasFocus(8013) | Control.HasFocus(8020) | Control.HasFocus(8030) | Control.HasFocus(8001) | Control.HasFocus(8021) | Control.HasFocus(8022) | Control.HasFocus(8002) | Control.HasFocus(8023) | Control.HasFocus(8024) | Control.HasFocus(8005) | Control.HasFocus(8006) | Control.HasFocus(8007) | Control.HasFocus(8008) | Control.HasFocus(8025) | Control.HasFocus(8009) | Control.HasFocus(8010) | Control.HasFocus(8011) | Control.HasFocus(8012)]</visible>
+					<visible>![Control.HasFocus(8040) | Control.HasFocus(8041) | Control.HasFocus(8042) | Control.HasFocus(8043) | Control.HasFocus(8044) | Control.HasFocus(8045) | Control.HasFocus(8046)]</visible>
+					<include>Dimensions_Fullscreen_Home_Mainbackgrounds</include>
+					<description>Home Backgorunds</description>
+					<texture background="true">$VAR[homebackgrounds]</texture>
+					<fadetime>380</fadetime>
+					<animation effect="fade" time="380">Visible</animation>
+					<animation effect="fade" time="380">Hidden</animation>
+					<animation type="WindowOpen">
+				    <effect type="slide" delay="1000" time="600" start="0,-1200"  end="0,0" tween="sine" easing="out" reversible="false"/>
+				    </animation>			
+				    <animation type="WindowClose">
+				    <effect type="fade" time="400" start="100" end="0" tween="sine" easing="in" reversible="false" />
+				    </animation>
+					</control>	
+					</include>
+
+
+
+					<include name="Backgrounds_Recentlyadded">
+					<control type="group">
+					<include>backgroundsfade</include>
+					<control type="image">
+					<animation effect="slide" time="500" start="0,800" end="0,0" tween="sine" easing="out" reversible="false">visible</animation>
+					<animation effect="fade" time="500" start="100" end="0" delay="0" tween="sine" easing="in" reversible="false">hidden</animation>
+					<visible>Control.HasFocus(8000) | Control.HasFocus(8020) | Control.HasFocus(8030) | Control.HasFocus(8001) | Control.HasFocus(8021) | Control.HasFocus(8022) | Control.HasFocus(8002) | Control.HasFocus(8023) | Control.HasFocus(8024) | Control.HasFocus(8005) | Control.HasFocus(8006) | Control.HasFocus(8009) | Control.HasFocus(8010) | Control.HasFocus(8011) | Control.HasFocus(8013) | Control.HasFocus(8012)</visible>
+					<include>Dimensions_Fullscreen_Home_1</include>
+					<fadetime>800</fadetime>
+					<texture background="true" fallback="special://skin/backgrounds/movies.jpg">$VAR[recentlyaddedfanart]</texture>
+					</control>
+					</control>
+					</include>
+
+					<include name="Backgrounds_Recentlyadded_TVShows">
+					<control type="group">
+					<include>backgroundsfade</include>
+					<control type="image">
+					<animation effect="slide" time="500" start="0,800" end="0,0" tween="sine" easing="out" reversible="false">visible</animation>
+					<animation effect="fade" time="500" start="100" end="0" delay="0" tween="sine" easing="in" reversible="false">hidden</animation>
+					<visible>Control.HasFocus(8040) | Control.HasFocus(8041) | Control.HasFocus(8042) | Control.HasFocus(8043) | Control.HasFocus(8044) | Control.HasFocus(8045) | Control.HasFocus(8047) | Control.HasFocus(8045) | Control.HasFocus(8046)</visible>
+					<include>Dimensions_Fullscreen_Home_1</include>
+					<fadetime>800</fadetime>
+					<texture background="true" fallback="special://skin/backgrounds/tvshows.jpg">$VAR[recentlyaddedfanart]</texture>
+					</control>
+					</control>
+					</include>
+
+					<include name="Backgrounds_Genrewidgets">
+					<control type="image">
+					<include>backgroundsfade</include>
+					<visible>Control.HasFocus(8007) + Container(8007).HasFocus(1) | Container(8007).HasFocus(2) | Container(8007).HasFocus(3) | Container(8007).HasFocus(4) | Container(8007).HasFocus(5) | Container(8007).HasFocus(6) | Container(8007).HasFocus(7) | Container(8007).HasFocus(8) | Container(8007).HasFocus(9) | Container(8007).HasFocus(10)</visible>
+					<include>Dimensions_Fullscreen_Home</include>
+					<texture background="true">$VAR[genrebackgrounds]</texture>
+					<fadetime>380</fadetime>
+					<animation effect="fade" time="380">Visible</animation>
+					<animation effect="fade" time="380">Hidden</animation>
+					</control>
+					</include>
+
+					<include name="Backgrounds_Yearwidgets">
+					<control type="image">
+					<include>backgroundsfade</include>
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(1) | Container(8008).HasFocus(2) | Container(8008).HasFocus(3) | Container(8008).HasFocus(4) | Container(8008).HasFocus(5) | Container(8008).HasFocus(6) | Container(8008).HasFocus(7) | Container(8008).HasFocus(8) | Container(8008).HasFocus(9) | Container(8008).HasFocus(10)</visible>
+					<include>Dimensions_Fullscreen_Home_1</include>
+					<texture background="true">$VAR[yearbackgrounds]</texture>
+					<fadetime>380</fadetime>
+					<animation effect="fade" time="380">Visible</animation>
+					<animation effect="fade" time="380">Hidden</animation>
+					</control>
+					</include>
+					</includes>

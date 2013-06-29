@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="movies">
+    <name>new movies</name>
+    <match>all</match>
+    <rule field="year" operator="greaterthan">
+        <value>2011</value>
+    </rule>
+</smartplaylist>
