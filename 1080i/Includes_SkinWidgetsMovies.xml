@@ -3114,7 +3114,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>Small_16</font>
-					<textcolor>silver_dim1</textcolor>
+					<textcolor>label2</textcolor>
 					</control>
 					
 					<control type="label">
@@ -3127,7 +3127,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>Small_18</font>
-					<textcolor>silver_dim1</textcolor>
+					<textcolor>mpaa</textcolor>
 					</control>
 					
 					<control type="image">
@@ -3151,7 +3151,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>Large</font>
-					<textcolor>silver_dim1</textcolor>
+					<textcolor>rating</textcolor>
 					</control>
 					</control>
 					

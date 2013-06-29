@@ -27,6 +27,11 @@
 	
 	<color name="silver">FFC0C0C0</color>
 	<color name="silver_dim1">FFB0C4DE</color>
+	<color name="rss_title">FF7FFFD4</color> 
+	
+	<color name="label2">FFB0C4DE</color>
+	<color name="mpaa">FFB0C4DE</color>
+	<color name="rating">FFB0C4DE</color>
 	
 	
 	

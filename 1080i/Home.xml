@@ -70,7 +70,7 @@
 					<height>32</height>
 					<font>Small_18</font>
 					<urlset>1</urlset>
-					<titlecolor>FF7FFFD4</titlecolor>
+					<titlecolor>rss_title</titlecolor>
 					<headlinecolor>silver_dim1</headlinecolor>
 					<textcolor>silver</textcolor>
 					</control>
@@ -91,11 +91,11 @@
 					</control>
 
 					<control type="image">
-					<posx>-85</posx>
+					<posx>-100</posx>
 					<posy>50</posy>
 					<width>465</width>
 					<height>1800</height>
-					<texture background="true">dawn/backgroundwidgetsrevert.png</texture>
+					<texture background="true">dawn/backgroundwhite.png</texture>
 					<aspectratio>stretch</aspectratio>
 					<colordiffuse>sidebar</colordiffuse>
 					</control>

@@ -2,31 +2,36 @@
 <colors>
     
 	
-	<color name="sidebar">CC2C2C2C</color>
-	<color name="topbar">AA2C2C2C</color>
-	<color name="overlayrss">AA2C2C2C</color>
+	<color name="sidebar">DDC0C0C0</color>
+	<color name="topbar">AAC0C0C0</color>
+	<color name="overlayrss">DDC0C0C0</color>
 	<color name="timebar">EE2C2C2C</color> 
-	<color name="time">FF7FFFD4</color> 
+	<color name="time">FF4682B4</color> 
 	
-	<color name="home_icons_focus">FF7FFFD4</color> 
-	<color name="home_icons_unfocus">FFB0C4DE</color>
+	<color name="home_icons_focus">FF000000</color> 
+	<color name="home_icons_unfocus">AADDDDDD</color>
 	
-	<color name="listfo">442C2C2C</color> 
+	<color name="listfo">112C2C2C</color> 
 	
-	<color name="focused_submenu">FFB0C4DE</color> 
-	<color name="unfocused_submenu">FFB0C4DE</color> 
+	<color name="focused_submenu">FF2C2C2C</color> 
+	<color name="unfocused_submenu">FF2C2C2C</color> 
 	
-	<color name="arrow">FFC0C0C0</color> 
+	<color name="arrow">FF2C2C2C</color> 
 	<color name="widgetsbar">FF2C2C2C</color> 
 	
 	<color name="rating">FFC0C0C0</color> 
 	<color name="shadow">FF505050</color>
 	
 	<color name="star_rating">AAFFD700</color> 
-	<color name="darkgreybackground">AA2C2C2C</color>
+	<color name="darkgreybackground">AAC0C0C0</color>
 	
 	<color name="silver">FFC0C0C0</color>
-	<color name="silver_dim1">FFB0C4DE</color>
+	<color name="silver_dim1">FF000000</color>
+	<color name="rss_title">FF4682B4</color>
+	
+	<color name="label2">FFB0C4DE</color>
+	<color name="mpaa">FFB0C4DE</color>
+	<color name="rating">FFB0C4DE</color>
 	
 	
 	
