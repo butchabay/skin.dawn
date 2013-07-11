@@ -42,11 +42,11 @@
 	</include>
 	
 	<include name="Dimensions_Fullscreen_Home_Mainbackgrounds">
-		<posx>0</posx>
-		<posy>100</posy>
-		<width>1920</width>
-		<height>1080</height>
-		<aspectratio aligny="bottom">scale</aspectratio>
+		<posx>360</posx>
+		<posy>170</posy>
+		<width>1560</width>
+		<height>920</height>
+		<aspectratio align="left" aligny="center">scale</aspectratio>
 	</include>
 	
 	<include name="Dimensions_Fullscreen_Home">
@@ -58,10 +58,11 @@
 	</include>
 	
 	<include name="Dimensions_Fullscreen_Home_1">
-		<posx>100</posx>
-		<posy>380</posy>
-		<width>1920</width>
-		<height>1080</height>
+		<posx>360</posx>
+		<posy>360</posy>
+		<width>1560</width>
+		<height>740</height>
+		<aspectratio align="left" aligny="top">scale</aspectratio>
 	</include>
 	
 	<include name="Arrow_Down_Home">
